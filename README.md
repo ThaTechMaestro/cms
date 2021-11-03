@@ -1,8 +1,7 @@
 # CMS
 * A RESTful api for a Course Management System
-* The resources includes Topic, Course, Lesson
+* The resources includes Topic and Course
 * Different Courses can be accessed for a particular topic
-* Each Courses consists of different Lesson
 
 # Development: Version 1
 The first working version for the Course Management API
@@ -27,5 +26,32 @@ The first working version for the Course Management API
 * Implemented CRUD operations
 
 ## Used
-* Spring MVC
 * Spring Boot
+
+# Development: Version 2
+Improved version for the Course Management API
+
+## Overview
+* Code changes for this version can be seen with the commit tag "version2:commit_message"
+* Development of the Course Resource
+
+## Implementing the following CRUD features for the Topic resource
+- Accessing all the available Courses
+-  Accessing a particular course
+- Add a paritcular course
+- Updating a particular course
+- Deleting a particular course
+
+## Data Layer:
+* An inbuilt database(Apache Derby) used in this version, the course was created as an object utilising a service class implementation
+* Each course is mapped to a topic(Foreign key) using a many to one relationship
+
+## Concepts Learned
+* Use of JPA and Spring Data JPA
+* Implementation of Entity classes and Entity relationships
+* Implementation of interfaces and custom method creation in Repository class
+* Implementation of CRUD features using an embedded database (Apache Derby)
+
+## Used
+* Spring Boot
+* Spring Data JPA

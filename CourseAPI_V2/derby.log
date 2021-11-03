@@ -1,7 +1,7 @@
 ----------------------------------------------------------------
-Mon Nov 01 18:00:19 WAT 2021:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-017c-dc71-d125-00000112acb0 
-on database directory memory:/home/phill/work/Spring_Projects/cms/CourseAPI_V2/044af319-bee7-4c95-99a5-1a9c269ec3c5 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@42a57993 
+Wed Nov 03 21:29:54 WAT 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-017c-e77e-6a3f-00000234e868 
+on database directory memory:/home/phill/work/Spring_Projects/cms/CourseAPI_V2/f124ab9e-a506-4d56-bb8f-e0d476fbc372 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@42a57993 
 Loaded from file:/home/phill/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
 java.vendor=Oracle Corporation
 java.runtime.version=14+36-1461
@@ -11,6 +11,3 @@ os.arch=amd64
 os.version=5.4.0-88-generic
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''
-----------------------------------------------------------------
-Mon Nov 01 18:29:51 WAT 2021:
-Shutting down instance a816c00e-017c-dc71-d125-00000112acb0 on database directory memory:/home/phill/work/Spring_Projects/cms/CourseAPI_V2/044af319-bee7-4c95-99a5-1a9c269ec3c5 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@42a57993 
