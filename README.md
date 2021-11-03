@@ -45,7 +45,7 @@ Improved version for the Course Management API
 
 ## Data Layer:
 * An inbuilt database(Apache Derby) used in this version, the course was created as an object and stored in the database utilising Spring data JPA
-* Each course is mapped to a topic(Foreign key) using a many to one relationship
+* Each course is mapped to a topic( Foreign key ) using a many to one relationship
 
 ## Concepts Learned
 * Use of JPA and Spring Data JPA
