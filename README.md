@@ -22,8 +22,9 @@ The first working version for the Course Management API
 * Each topic is added as an object and stored in a list, which is created on request but created only once via a service class(Singleton)
 
 ## Concepts Learned
+* A fundamental understanding and implementation of OOP concepts
 * A fundamental understanding of RESTful APIs
-* Implemented CRUD operations
+* Implemented CRUD operations for Topic Resource
 
 ## Used
 * Spring Boot
@@ -43,7 +44,7 @@ Improved version for the Course Management API
 - Deleting a particular course
 
 ## Data Layer:
-* An inbuilt database(Apache Derby) used in this version, the course was created as an object utilising a service class implementation
+* An inbuilt database(Apache Derby) used in this version, the course was created as an object and stored in the database utilising Spring data JPA
 * Each course is mapped to a topic(Foreign key) using a many to one relationship
 
 ## Concepts Learned
