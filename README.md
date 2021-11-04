@@ -111,3 +111,10 @@ docker run -p 8082:8080 cms_ap:v2.0
 ```
 docker pull abuyusuf/cms_api:v2.0
 ```
+
+## Used
+* Spring Boot
+* Spring Data JPA
+* Maven
+* Docker
+* Postman
